@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    /* Write your CSS Code here */
+    .flag{
+      background-color: #CD6688;
+      width: 600px;
+      height: 600px;
+    }
+    .flag> div{
+      background-color: #FCAEAE;
+      height: 200px;
+      width: 600px;
+      position: relative;
+      top: 150px;
+    }
+    .flag> div> div{
+      width: 200px;
+      height: 200px;
+      background-color: #F8E8EE;
+      border-radius: 50%;
+      position: relative;
+      top: 0px;
+      left: 200px;
+    }
+    .flag> div> div> p{
+      font-family: 'Caveat', cursive;
+      font-family: 'Josefin Sans', sans-serif;
+      font-family: 'Libre Baskerville', serif;
+      font-family: 'Lumanosimo', cursive;
+      font-family: 'Ysabeau Infant', sans-serif;
+      font-style: italic;
+      font-weight: 300;
+      font-size: 20px;
+      position:relative ;
+      top: 86px;
+      left:70px;
+    }
+
+    .flag> p{
+      color: azure;
+      font-size: 20px;
+    }
+
+    .font{
+      font-family: 'Caveat', cursive;
+      font-family: 'Edu SA Beginner', cursive;
+      font-family: 'Josefin Sans', sans-serif;
+      font-family: 'Libre Baskerville', serif;
+      font-family: 'Lumanosimo', cursive;
+      font-family: 'Ysabeau Infant', sans-serif;
+      position: relative;
+      left: 438px;
+    }
+
+
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans:wght@500&family=Libre+Baskerville&family=Lumanosimo&family=Ysabeau+Infant:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Edu+SA+Beginner&family=Josefin+Sans:wght@500&family=Libre+Baskerville&family=Lumanosimo&family=Ysabeau+Infant:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+
+<!-- 
+  IMPORTANT! Do not change any HTML
+Don't add any classes/ids/elements 
+Use what you know about combining selectors 
+and CSS specificity instead.
+Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
+Hint 2: You can use CSS inspection to get the colors from
+https://appbrewery.github.io/flag-of-laos/
+-->
+
+<body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="font">
+    <p>Created By : Golu Dhakad</p>
+  </div>
+</body>
+
+</html>
